@@ -17,7 +17,7 @@ public class SettingsFrame extends JFrame{
 	private HighScorePanel h= new HighScorePanel();
 	private GridBagConstraints mc= new GridBagConstraints();
 	public SettingsFrame(){
-		super.setSize(460, 500);
+		super.setSize(600, 600);
 		super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JPanel headerPanel= new JPanel(new GridBagLayout());
 		ImageIcon header= new ImageIcon();

@@ -1,7 +1,5 @@
-import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.net.URL;
@@ -28,7 +26,7 @@ public class GameFrame extends JFrame{
 	private GridBagConstraints mc= new GridBagConstraints();
 	private boolean isPaused= false;
 	public GameFrame(final int width, final int height, final int speed, final int d){
-		super.setSize(38*width+80, 38*height+22+super.getInsets().top);
+		super.setSize(38*width+80, 38*height+40+super.getInsets().top);
 		super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		difficulty= d;
 		board= new int[width][height+2];
