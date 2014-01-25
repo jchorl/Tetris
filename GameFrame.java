@@ -338,7 +338,7 @@ public class GameFrame extends JFrame{
 				go= new GameOver(score, difficulty, GameFrame.this);
 				mainPanel.add(go, mc);
 				mainPanel.repaint();
-				GameFrame.this.setSize(360, 200);
+				GameFrame.this.setSize(380, 220);
 				GameFrame.this.validate();
 			}
 			else{//otherwise, new game
